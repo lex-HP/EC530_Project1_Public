@@ -10,7 +10,7 @@ This assignment has 3 important parts:
 The python file [MatrixMulti.py](MatrixMulti.py) has three functions whose purpose is to take in 2 lists of lists of floats and returns either the result of A X B or an exception on input failures. Those three functions have distinct jobs:
 - MatrixMulti.matmul(MatA, MatB) --> Does A X B and returns the result, assumes inputs are always correct
 - MatrixMulti.input_error_check(MatA, MatB) --> Check input type and correct matrix size, returns 1 on correct input or exception on wrong input. 
-- MatrixMulti.matrix_multiplication(MatA, MatB) --> serves as main, fuses matmul and input_error_chec together. Returns either the result of A X B or an exception on input failures.
+- MatrixMulti.matrix_multiplication(MatA, MatB) --> serves as main, fuses matmul and input_error_check together. Returns either the result of A X B or an exception on input failures.
 At the demand of the teacher, numpy is not used in this code. Therefore arrays are not supported!
 
 ## Unit testing of Matrix Multiplication
